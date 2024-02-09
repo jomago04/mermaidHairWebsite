@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Mermaid Hair - Dive into the Enchantment</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">SERVICES</a></li>
+                        <li><a href="">ABOUT ME</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">APPOINTMENTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Mermaid Hair</h1>
+            <p>Dive into the Enchantment: Unveil Your Inner Mermaid with our Stunning Mermaid Hair Extensions!<br>Let Your Tresses Dance with the Ocean's Magic and Embrace the Allure of the Deep Blue with every Strand!</p>
+            <a href="" class="hero-btn">Appointments</a>
+        </div>   
+        </section>
+
+        <!-- services -->
+        <section class="services">
+            <h1>Services We Offer</h1>
+            <p>text under services we offer</p>
+            <div class="row">
+                <div class="services-col">
+                    <h3>1 strand</h3>     
+                    <p>yada yada yada</p>
+                </div>
+                <div class="services-col">
+                    <h3>5 strand</h3>     
+                    <p>comes in so and so color</p>
+                </div>   
+                <div class="services-col">
+                    <h3>20 srtand</h3>     
+                    <p>discount for kids or some idk</p>
+                </div>   
+            </div>
+        </section>
+
+            <!-- who we are -->
+        <section class="aboutme">
+            <h1>This is Magical Mermaid Hair</h1>
+            <p>born in rochester ny moved in sc in 2013 to live her dream as a mermaid hair stylist</p>
+
+            <div class="row">
+                <div class="aboutme-col">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>Alison Sortino</h3>
+                    </div>
+                </div>
+                <div class="aboutme-col">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>fill in</h3>
+                    </div>
+                </div>
+                <div class="aboutme-col">
+                    <img src="images/logo.png">
+                    <div class="layer">
+                        <h3>fill in</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <div class="FAQ">
+            <h1>Frequently Asked Questions</h1>
+            <div class="column">
+                <div class="FAQ-col">
+                    <h3>Here is my question i am trying to see if it looks nice?</h3>
+                    <p>chill </p>
+                </div>
+                <div class="FAQ-col">
+                    <h3>how many strands can i get bruh?</h3>
+                    <p>no more than 3</p>
+                </div>
+                <div class="FAQ-col">
+                    <h3>what abt my kids</h3>
+                    <p>leave em at home!</p>
+                </div>
+            </div>
+        </div>
+        <!-- testimonials -->
+        <section class="testimonial">
+            <h1>What Our Clients Say</h1>
+            <p>they say we far</p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/logo.png">
+                    <div>
+                        <p>she said it was so good she is ognna come back for more!</p>
+                        <h3>bob</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/logo.png">
+                    <div>
+                        <p>she said it was so good she is ognna come back for more!</p>
+                        <h3>marquisha</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Follow us on social media!</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-x-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Joshua Gould</p>
+        </section>
+
+        <!-- js for toggle menu -->    
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
