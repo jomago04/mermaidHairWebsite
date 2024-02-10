@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Mermaid Hair - Dive into the Enchantment</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES / PRODUCTS</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="appointments.html">APPOINTMENTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1>Services and Products</h1>   
+        </section>
+
+        <!-- services -->
+        <section class="services">
+            <h1>Services</h1>
+            <div class="row">
+                <div class="services-col">
+                    <h3>5 Strands</h3>     
+                    <p>$20 USD</p>
+                </div>
+                <div class="services-col">
+                    <h3>10 Strands</h3>     
+                    <p>$30 USD</p>
+                </div>   
+                <div class="services-col">
+                    <h3>15 Strands</h3>     
+                    <p>$40 USD</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-col">
+                    <h3>20 Strands</h3>     
+                    <p>$50 USD</p>
+                </div>
+                <div class="services-col">
+                    <h3>25 Strands</h3>     
+                    <p>$60 USD</p>
+                </div>
+                <div class="services-col">
+                    <h3>30 Strands</h3>     
+                    <p>$70 USD</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="services-col">
+                    <h3>35 Strands</h3>     
+                    <p>$80 USD</p>
+                </div>
+                <div class="services-col">
+                    <h3>40 Strands</h3>     
+                    <p>$90 USD</p>
+                </div>
+                <div class="services-col">
+                    <h3>45 Strands</h3>     
+                    <p>$100 USD</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- products -->
+        <section class="products">
+            <h1>Products</h1>
+        </section>
+        <!-- footer -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Follow us on social media!</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-x-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Joshua Gould</p>
+        </section>
+
+        <!-- js for toggle menu -->    
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"
+            }
+        </script>
+    </body>
+</html>
